@@ -1,0 +1,28 @@
+{
+  "trader": {
+    "type": "paper",
+    "options": {
+      "sources": {
+        "BTCUSD": "hist.crytr.btceur"
+      },
+      "balance": {
+        "BTC": 1.23E-6,
+        "XRP": 1424.13
+      }
+    }
+  },
+  "strategy": {
+    "type": "macd",
+    "options": {
+      "inputIndicator": "open",
+      "currencyPair": "btceur",
+      "inputSource": "crytr",
+      "inputType": "hist",
+      "optionLongPeriod": 5,
+      "optionSignalPeriod": 9,
+      "optionShortPeriod": 2,
+      "candleType": "hour",
+      "candleInterval": 1
+    }
+  }
+}
