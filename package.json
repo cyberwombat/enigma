@@ -39,7 +39,7 @@
     "joi": "^14.3.1",
     "levene-test": "^1.0.2",
     "mann-whitney-utest": "^1.0.5",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "moment-round": "^1.0.1",
     "mongodb": "^3.3.2",
     "morphjs": "^0.1.0",
